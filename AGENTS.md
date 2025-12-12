@@ -17,15 +17,10 @@
   `git add . && git commit -m "til: Redis pipeline"`
 
 ## Writing Style & Naming Conventions
-- **파일명 규칙**: `YYYY-MM-DD-제목.md`
-  - 일반 단어는 한글 사용.
-  - 기술 스킬/용어는 영어 사용(예: `Redis`, `CSS Grid`, `Docker`).
-- **제목/파일명은 환경 + 문제를 드러내게 작성**합니다. 해결 방안은 제목에 없어도 됩니다.  
-  예: `Kaggle Python 3.11에서 scikit-learn 1.1.1 설치 실패 트러블슈팅`
-- **문서 제목(H1)**은 파일명 제목과 맞춥니다:  
-  `# Redis 파이프라인`
-- 문서는 짧고 실용적으로 쓰고, 예시와 주의할 점을 우선합니다.
-- 너무 짧은 메모가 아니라면 `TEMPLATE.md`의 섹션 흐름을 따릅니다.
+작성 규칙(파일명/제목/문서 타입/섹션 흐름 등)의 **Single Source of Truth는 `README.md`와 `TEMPLATE.md`**입니다.
+
+- 에이전트는 문서를 작성/수정할 때 항상 먼저 `README.md`와 `TEMPLATE.md`를 읽고 그 규칙을 따른다.
+- 이 AGENTS.md에는 중복되는 상세 규칙을 재작성하지 않는다(드리프트 방지).
 
 ## Testing Guidelines
 테스트 프레임워크/규칙은 적용되지 않습니다.
