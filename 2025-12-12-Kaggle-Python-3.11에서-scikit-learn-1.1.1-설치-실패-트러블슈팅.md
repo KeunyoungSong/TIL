@@ -1,4 +1,4 @@
-# Kaggle Python 3.11에서 scikit-learn 1.1.1 설치 실패 트러블슈팅: wheel 부재와 해결
+# Kaggle Python 3.11에서 scikit-learn 1.1.1 설치 실패 트러블슈팅
 
 ## 상황(Context)
 Kaggle 노트북에서 예전 튜토리얼을 따라가며 `scikit-learn==1.1.1`을 설치하려고 했다. 런타임 Python 버전은 3.11.13이었다.
