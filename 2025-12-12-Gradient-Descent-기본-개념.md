@@ -16,15 +16,15 @@ Gradient Descent는 **손실 함수(loss function)의 값을 최소로 만드는
 - 따라서 **기울기의 반대 방향**으로 조금씩 이동하면 손실 값이 감소한다.
 
 ## 수식으로 보기
-파라미터를 \(\theta\)라고 하면, GD 업데이트는 다음과 같다.
+파라미터를 $\theta$라고 하면, GD 업데이트는 다음과 같다.
 
-\[
+$$
 \theta \leftarrow \theta - \eta \nabla_\theta J(\theta)
-\]
+$$
 
-- \(J(\theta)\): 손실 함수의 값
-- \(\nabla_\theta J(\theta)\): 파라미터에 대한 손실 함수의 기울기
-- \(\eta\) (learning rate): 학습률, 한 번에 이동하는 크기
+- $J(\theta)$: 손실 함수의 값
+- $\nabla_\theta J(\theta)$: 파라미터에 대한 손실 함수의 기울기
+- $\eta$ (learning rate): 학습률, 한 번에 이동하는 크기
 
 ## GD 한 스텝(Iteration) 흐름
 1. 현재 파라미터로 예측값 계산
