@@ -22,6 +22,9 @@
 - 에이전트는 문서를 작성/수정할 때 항상 먼저 `README.md`와 `TEMPLATE.md`를 읽고 그 규칙을 따른다.
 - 이 AGENTS.md에는 중복되는 상세 규칙을 재작성하지 않는다(드리프트 방지).
 
+## Coaching Style
+교육/코칭 방식의 Single Source of Truth는 `COACHING.md`입니다. 이 문서와 중복되는 내용을 AGENTS.md에 재작성하지 않습니다.
+
 ## Testing Guidelines
 테스트 프레임워크/규칙은 적용되지 않습니다.
 
